@@ -1,0 +1,274 @@
+@import url("./reset.css");
+
+html,
+body {
+  box-sizing: border-box;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.title-2 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.header {
+  padding: 14px 0;
+  border-radius: 0px 0px 32px 32px;
+  box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  column-gap: 85px;
+}
+
+.menu__list-link {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #000;
+}
+
+.menu__list-link:hover {
+  color: #ff9900;
+  transition: color 0.4s ease;
+}
+
+/* Swiper */
+.swiper {
+}
+
+.swiper__inner {
+  max-width: 1770px;
+  line-height: normal;
+  font-style: normal;
+  border-radius: 32px;
+  margin: 50px 0;
+  background-image: url("./../images/swiper-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  padding: 100px 80px;
+}
+.swiper__title {
+  max-width: 837px;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.swiper__text {
+  max-width: 790px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+.swiper__btn {
+  color: #fff;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+  width: 280px;
+  height: 78px;
+  padding: 25px 39px;
+  background: #f90;
+  border-radius: 16px;
+}
+
+.about {
+}
+
+.about__text {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  max-width: 1235px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.cards-block {
+  display: flex;
+  column-gap: 32px;
+}
+
+.cards {
+  position: relative;
+}
+
+.cards__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  position: absolute;
+  max-width: 868px;
+  height: 196px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 0 50px;
+  column-gap: 160px;
+}
+
+.cards__text {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px; /* 200% */
+}
+.cards__btn {
+  color: #fff;
+  border-radius: 16px;
+  border: 3px solid #f90;
+  height: 60px;
+  padding: 19px 38px;
+  align-items: center;
+}
+
+.cards-small {
+  height: 295px;
+  border: 1px solid #cacaca;
+  display: flex;
+}
+
+.how {
+  margin: 100px 0;
+}
+
+.steps {
+  display: flex;
+  column-gap: 85px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+.how__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.how__inner-left {
+}
+
+.how__text {
+  padding-top: 8px;
+  padding-bottom: 18px;
+  max-width: 758px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.how__btn {
+  display: flex;
+  column-gap: 32px;
+}
+
+.how__btn-more {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  height: 60px;
+  padding: 19px 38px;
+  align-items: center;
+  border-radius: 16px;
+  background: #f90;
+}
+.how__btn-contract {
+  border-radius: 16px;
+  border: 1px solid #000;
+  height: 60px;
+  padding: 19px 38px;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer {
+  padding: 50px 0;
+  background-color: #000000;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px; /* 200% */
+  margin-bottom: 90px;
+}
+
+.footer__list-link {
+  color: #cacaca;
+}
+
+.footer-title {
+  color: #cacaca;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer__form-input {
+  width: 570px;
+  height: 60px;
+  background-color: #414141;
+  border-radius: 10px;
+}
+
+.footer__text {
+  max-width: 363px;
+  color: #cacaca;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
